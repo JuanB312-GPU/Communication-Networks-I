@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido a nuestra página</title>
+  <style>
+    .boton {
+            padding: 10px 20px;
+            font-size: 14px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+            font-family: 'Roboto', sans-serif;
+        }
+    .rectangle{
+      width: 100vw;
+      height: 115px;
+      justify-content: center; 
+      align-items: center; 
+      background-color: #d8a425 ;
+      display: flex;
+    }
+  img {
+            object-fit: cover; 
+           margin-right: 10px;
+        }
+  .contenedor {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center; 
+            border: 2px solid rgba(0, 0, 0, 0);  
+            padding: 20px; 
+        }
+    body {
+      background-color:#e39570;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    h1 {
+      color: #da4e30;
+      font-size: 4em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #da4e30;
+      font-size: 2.5em;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="welcome-container">
+    <div class="rectangle">
+    <button class="boton">Students</button>
+    <button class="boton">About us</button>
+    <button class="boton">Wellness</button>
+    </div>
+     <div class="contenedor">
+     <h1>¡Welcome to our web site!</h1>
+     <p> Distrital University Francisco José de Caldas.</p>
+     </div>
+    <div class="rectangle">
+    <img src="logo.png" alt="Imagen de ejemplo">
+    <button class="boton">Registrations</button>
+    <button class="boton">Faculties</button>
+    <button class="boton">Contact</button>
+    </div>
+  </div>
+</body>
+</html>
