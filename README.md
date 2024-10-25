@@ -9,5 +9,3 @@ Cada taller tiene su propia carpeta dentro del repositorio, donde se incluyen lo
 - **Código fuente**: Scripts, configuraciones o simulaciones necesarias para cada taller (cuando aplique).
 - **Documentación**: Un archivo `informe.pdf` que incluye el análisis, resultados, y conclusiones del taller.
 - **Archivos adicionales**: Diagramas, capturas de pantalla o configuraciones extra que complementen la entrega.
-
-### Carpeta de cada taller
