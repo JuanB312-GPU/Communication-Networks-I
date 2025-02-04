@@ -1,0 +1,62 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    background-color: #eb984e; /* Fondo suave */
+    text-align: center; /* Centrar el texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de los encabezados */
+h1 {
+    color: #ea0909;
+    font-size: 24px;
+    margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    background-color: #e6ea09;
+    color: rgba(215, 21, 21, 0.697);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #d6d900; /* Cambio de color al pasar el mouse */
+}
+
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.social-buttons a:hover {
+    color: #ea0909; /* Cambio de color al pasar el mouse */
+}
